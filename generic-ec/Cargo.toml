@@ -1,0 +1,11 @@
+[package]
+name = "ecdh-key-exchange"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+generic-ec = { version = "0.4.1", features = ["curve-secp256k1"] }
+rand = "0.8"
+sha2 = "0.10"
+
+
